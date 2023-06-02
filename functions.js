@@ -12,5 +12,8 @@ const  textarea = document. getElementById('tieude');
         textarea.style.height = textarea.scrollHeight +'px';
     }
 
-
+function openNewPage() {
+        // Chuyển hướng đến trang mới
+        window.location.href = "controller.php?view=create-post";
+    }
 
