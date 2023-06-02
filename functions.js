@@ -17,3 +17,11 @@ function openNewPage() {
         window.location.href = "controller.php?view=create-post";
     }
 
+function clicked(id, callback ){
+     const  button = document.querySelector(id);
+    button.addEventListener("click", () => {
+       
+      
+      callback() ;
+     });
+ }
