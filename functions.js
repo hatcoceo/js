@@ -17,8 +17,8 @@ function openNewPage() {
         window.location.href = "controller.php?view=create-post";
     }
 
-function clickButtonAction(buttonName, callback ){
-     const  button = document.querySelector(buttonName);
+function clickButtonAction(buttonId, callback ){
+     const  button = document.querySelector(buttonId);
     button.addEventListener("click", () => {
        callback() ;
      });
