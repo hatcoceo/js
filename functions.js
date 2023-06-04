@@ -20,8 +20,6 @@ function openNewPage() {
 function clicked(id, callback ){
      const  button = document.querySelector(id);
     button.addEventListener("click", () => {
-       
-      
-      callback() ;
+       callback() ;
      });
  }
