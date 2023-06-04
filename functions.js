@@ -36,3 +36,6 @@ function sendData() {
                    document.getElementById('input1').value ='';
                 }
             };
+              var formData = new FormData(document.getElementById('myForm'));
+            xhr.send(formData);
+        }
