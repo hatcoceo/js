@@ -23,3 +23,16 @@ function clickButtonAction(buttonId, callback ){
        callback() ;
      });
  }
+
+function sendData() {
+            var xhr = new XMLHttpRequest();
+            xhr.open('POST', 'Views/trangb.php', true);
+            xhr.onreadystatechange = function() {
+                if (xhr.readyState === 4 && xhr.status === 200) {
+                    // Hiển thị dữ liệu trả về từ máy chủ PHP
+                    var responseData = xhr.responseText;
+                   document. getElementById("result").innerHTML = responseData;
+                   // xóa dữ liệu ô input sau khi nhận dữ liệu trả về 
+                   document.getElementById('input1').value ='';
+                }
+            };
