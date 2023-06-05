@@ -38,4 +38,4 @@
 </body>
 </html>
 
-Trang [a](https://github.com/hatcoceo/js/edit/main/README.md)
+Trang web [a](https://github.com/hatcoceo/js/blob/f975bff6dd87370553e92932c285a0393eeca06b/functions.js#L27)
