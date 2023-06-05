@@ -23,7 +23,6 @@ function clickButtonAction(buttonId, callback ){
        callback() ;
      });
  }
-[sendata](https://github.com/hatcoceo/js/blob/f975bff6dd87370553e92932c285a0393eeca06b/functions.js#L27)
 function sendData() {
             var xhr = new XMLHttpRequest();
             xhr.open('POST', 'Views/trangb.php', true);
